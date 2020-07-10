@@ -14,7 +14,7 @@ for i, v in enumerate(['shnowlie', 'molwie','fowlie']):
     print(i,v)
 
     q= ['name','mission','favorite food']
-    a=['Lt Frankie', 'Killin Nazis','Enchiladas']
+    a=['Lt Frankie', 'Neutralizing the Enemy','Enchiladas']
 
     for q, a in zip(q, a):
         print('What is your{0}? It is {1}'.format(q,a))
